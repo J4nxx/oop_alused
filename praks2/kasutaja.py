@@ -1,4 +1,4 @@
-from praks2.Kasutajad import Kasutajad
+from praks2.kasutajad import Kasutajad
 kasutaja1 = Kasutajad()
 kasutaja1.eesnimi = "Olaf"
 kasutaja1.perenimi = "Alakivi"
