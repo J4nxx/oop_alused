@@ -1,4 +1,4 @@
-from praks2.Restoran import Restoraan
+from praks2.restoran import Restoraan
 
 restoraan1 = Restoraan()
 restoraan2 = Restoraan()
