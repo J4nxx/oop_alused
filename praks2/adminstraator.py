@@ -1,6 +1,11 @@
 from praks2.kasutajad import Kasutajad
+from praks2.privileegid import Privileegid
 class Admin(Kasutajad):
-    privileegid = []
 
-    def naita_privileegid(self):
-        print(self.privileegid)
+    privileegid = Privileegid()
+
+
+admin = Admin('admin', 'istraator')
+admin.privileegid.naita_privileegid()
+
+
